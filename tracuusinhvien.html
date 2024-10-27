@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Info Popup</title>
+    <link rel="stylesheet" href="styletcsv.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+<body>
+
+    <div class="container">
+        <table class="user-table">
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Name</th>
+                    <th>Group</th>
+                    <th>Action</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>Son Vu</td>
+                    <td>Tu Dai</td>
+                    <td><button class="show-btn" data-id="1" data-name="Son Vu" data-group="Tu Dai Huyen Thoai">Show</button></td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>Nhan Hoang</td>
+                    <td>Tu Dai</td>
+                    <td><button class="show-btn" data-id="2" data-name="Nhan Hoang" data-group="Tu Dai Huyen Thoai">Show</button></td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>Anh Le</td>
+                    <td>Tam Ninh</td>
+                    <td><button class="show-btn" data-id="3" data-name="Anh Le" data-group="Tam Ninh Huyen Thoai">Show</button></td>
+                </tr>
+                <tr>
+                    <td>4</td>
+                    <td>Phuc Pham</td>
+                    <td>Tam Ninh</td>
+                    <td><button class="show-btn" data-id="4" data-name="Phuc Pham" data-group="Tam Ninh Huyen Thoai">Show</button></td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <!-- Popup -->
+    <div id="popup" class="popup">
+        <div class="popup-content">
+            <h2>Information</h2>
+            <p id="info"></p>
+            <button id="close-btn">OK</button>
+        </div>
+    </div>
+
+    <script src="btn.js"></script>
+</body>
+</html>

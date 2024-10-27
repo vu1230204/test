@@ -1,0 +1,67 @@
+/* Styling the navigation bar */
+body {
+    font-family: Arial, sans-serif;
+}
+
+.navbar {
+    background-color: #465c71;
+    padding: 10px;
+}
+
+.menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.menu li {
+    position: relative;
+}
+
+.menu li a {
+    display: block;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: white;
+    background-color: #465c71;
+    transition: background-color 0.3s;
+}
+
+.menu li a:hover {
+    background-color: #3c4c63;
+}
+
+/* Submenu (Dropdown) */
+.submenu .dropdown {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #ffffff;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    border: 1px solid #ccc;
+    min-width: 200px;
+}
+
+.submenu .dropdown li {
+    width: 100%;
+}
+
+.submenu .dropdown li a {
+    padding: 10px;
+    color: #000;
+    background-color: #fff;
+    border-bottom: 1px solid #ccc;
+}
+
+.submenu .dropdown li a:hover {
+    background-color: #f0f0f0;
+}
+
+/* Show the dropdown when hovering */
+.submenu:hover .dropdown {
+    display: block;
+}
