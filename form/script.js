@@ -69,7 +69,7 @@ $(document).ready(function() {
                   "\nStart Date: " + startDate + 
                   "\nPhone Number: " + phone);
             
-            // Nếu muốn submit form sau khi alert thì bỏ comment dòng dưới
+           
             // form.submit();
         }
         
