@@ -1,6 +1,6 @@
 $(document).ready(function() {
     // Function to show the popup when a 'Show' button is clicked
-    $('.show-btn').on('click', function() {
+    $('.btn-show').on('click', function() {
         // Get data attributes from the button
         let id = $(this).data('id');
         let name = $(this).data('name');

@@ -1,9 +1,5 @@
 $(document).ready(function() {
-    // Datepicker initialization
-    $("#startDate").datepicker({
-        dateFormat: "dd/mm/yy"
-    });
-
+   
     // Form validation
     $("#userForm").validate({
         rules: {

@@ -4,12 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Form Validation</title>
-    <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
     <link rel="stylesheet" href="styles.css">
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
-    <script src="https://cdn.jsdelivr.net/jquery.validation/1.19.3/jquery.validate.min.js"></script>
-</head>
+   </head>
 <body>
 
     <div class="form-container">
@@ -25,7 +23,7 @@
             <input type="number" id="age" name="age" required>
 
             <label for="startDate">Start Date</label>
-            <input type="text" id="startDate" name="startDate" required>
+            <input type="date" id="startDate" name="startDate" required>
 
             <label for="phone">Phone Number</label>
             <input type="tel" id="phone" name="phone" required>
@@ -39,7 +37,7 @@
                 <ul>
                     <li>First Name, Last Name: required, max length 25</li>
                     <li>Year old: required, min 15, max 150</li>
-                    <li>Start Date: required, format dd/mm/yyyy</li>
+                    <!-- <li>Start Date: required, format dd/mm/yyyy</li> -->
                     <li>Phone number: required, only include "+" and numbers</li>
                 </ul>
             </div>
@@ -47,6 +45,6 @@
         </div>
     </div>
 
-    <script src="scripts.js"></script>
+    <script src="script.js"></script>
 </body>
 </html>

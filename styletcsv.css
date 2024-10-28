@@ -25,7 +25,7 @@ tr:nth-child(even) {
     background-color: #f9f9f9;
 }
 
-.show-btn {
+.btn-show{
     padding: 8px 16px;
     background-color: #4CAF50;
     color: white;
@@ -33,7 +33,7 @@ tr:nth-child(even) {
     cursor: pointer;
 }
 
-.show-btn:hover {
+.btn-show:hover {
     background-color: #45a049;
 }
 
