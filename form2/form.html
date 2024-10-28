@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JQuery Form</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <form id="userForm">
+            <h2>Form</h2>
+            <label for="firstName">First Name</label>
+            <input type="text" id="firstName" name="firstName">
+
+            <label for="lastName">Last Name</label>
+            <input type="text" id="lastName" name="lastName">
+
+            <label>Sex</label>
+            <label><input type="radio" name="sex" value="Male" checked> Male</label>
+            <label><input type="radio" name="sex" value="Female"> Female</label>
+
+            <label for="nationality">Nationality</label>
+            <select id="nationality" name="nationality">
+                <option value="Australia">Australia</option>
+                <option value="Singapore">Singapore</option>
+                <option value="United State">United State</option>
+                <option value="Viet Nam">Viet Nam</option>
+            </select>
+
+            <!-- Thêm nút submit -->
+            <button type="button" id="submitBtn">Submit</button>
+        </form>
+
+        <h3>Full name</h3>
+        <p id="fullnameDisplay"></p>
+
+        <h3>Sex</h3>
+        <p id="sexDisplay"></p>
+
+        <h3>Nationality</h3>
+        <p id="nationalityDisplay"></p>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
