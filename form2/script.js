@@ -14,8 +14,8 @@ $(document).ready(function() {
         }
 
         // Hiển thị thông tin ra các phần tương ứng
-        $("#fullnameDisplay").text(lastName + " " + firstName);
-        $("#sexDisplay").text(sex);
-        $("#nationalityDisplay").text(nationality);
+        $("#fullname-display").text(lastName + " " + firstName);
+        $("#sex-display").text(sex);
+        $("#nationality-display").text(nationality);
     });
 });

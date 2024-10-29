@@ -1,7 +1,7 @@
 $(document).ready(function() {
    
     // Form validation
-    $("#userForm").validate({
+    $("#user-form").validate({
         rules: {
             firstName: {
                 required: true,
