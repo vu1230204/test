@@ -1,0 +1,155 @@
+
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+    background-color: #fff;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+header {
+    text-align: center;
+    background-color: #ff6f6f;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2em;
+}
+
+.tagline {
+    font-style: italic;
+    font-size: 0.9em;
+}
+
+h2 {
+    color: #ff6f6f;
+    font-size: 1.5em;
+    margin-top: 20px;
+}
+
+.about p {
+    line-height: 1.6;
+}
+
+.content {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.main {
+    width: 60%;
+}
+
+.classes{
+    margin-top: 20px;
+    width: 50%;
+} 
+.signup {
+    margin-top: 20px;
+    
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table th, table td {
+    padding: 8px;
+    border: 1px solid #ccc;
+    text-align: left;
+}
+
+.projects {
+    width: 25%;
+    background-color: #f9ecec;
+    padding: 10px;
+    border: 1px solid #ff6f6f;
+    border-radius: 5px;
+    right: 0;
+    height: 50%;
+}
+
+.projects ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.projects ul li {
+    margin-bottom: 5px;
+}
+
+.projects ul ul {
+    padding-left: 15px;
+    list-style-type: circle;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form label {
+    margin-top: 10px;
+}
+
+form input[type="text"],
+form input[type="email"],
+form select,
+form textarea {
+    padding: 5px;
+    margin-top: 5px;
+    width: 50%;
+    box-sizing: border-box;
+}
+
+form input[type="radio"] {
+    margin-left: 10px;
+}
+
+form button {
+    background-color: #ff6f6f;
+    color: white;
+    padding: 10px;
+    border: none;
+    margin-top: 10px;
+    cursor: pointer;
+    border-radius: 3px;
+    width: 50%;
+}
+
+form button:hover {
+    background-color: #ff4f4f;
+}
+
+footer {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 0.9em;
+}
+
+footer a {
+    color: #ff6f6f;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+.about p u {
+    font-weight: bold;
+}
+
+.about p u em {
+    font-style: italic;
+}
