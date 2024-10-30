@@ -2,8 +2,8 @@ $(document).ready(function() {
     // Bắt sự kiện khi nhấn vào nút submit
     $("#submitBtn").on('click', function() {
         // Lấy giá trị từ các trường
-        var firstName = $("#firstName").val();
-        var lastName = $("#lastName").val();
+        var firstName = $("#first-name").val();
+        var lastName = $("#last-name").val();
         var sex = $("input[name='sex']:checked").val();
         var nationality = $("#nationality").val();
 

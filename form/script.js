@@ -52,10 +52,10 @@ $(document).ready(function() {
         },
         submitHandler: function(form) {
             // Lấy giá trị từ các trường form
-            var firstName = $("#firstName").val();
-            var lastName = $("#lastName").val();
+            var firstName = $("#first-name").val();
+            var lastName = $("#last-name").val();
             var age = $("#age").val();
-            var startDate = $("#startDate").val();
+            var startDate = $("#start-date").val();
             var phone = $("#phone").val();
             
             // Hiển thị thông tin đã nhập lên qua alert
