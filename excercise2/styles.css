@@ -101,6 +101,24 @@ form {
 form label {
     margin-top: 10px;
 }
+.gender-options {
+    display: flex;
+    align-items: center; 
+    gap: 10px; 
+    margin-top: 10px;
+}
+
+.gender-options label {
+    margin: 0;
+    padding-left: 0; 
+}
+
+.custom-radio {
+    margin: 0;
+    padding: 0; 
+    vertical-align: middle; 
+    
+}
 
 form input[type="text"],
 form input[type="email"],
