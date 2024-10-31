@@ -25,7 +25,7 @@ $(document).ready(function() {
         const courseName = courseCard.find('h2').text();
         const coursePrice = courseCard.find('.price span').text().replace('$', '');
         const courseImage = courseCard.find('img').attr('src');
-         const existingItem = cart.find(item => item.name === courseName);
+        const existingItem = cart.find(item => item.name === courseName);
         
         if (existingItem) {
             existingItem.quantity += 1;
