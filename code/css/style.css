@@ -145,13 +145,13 @@ header .main ul.main-menu > li:hover .sub-menu{
     top: 50px;
 }
 
-header .slider-container .slick-dots{
+section .slider-container .slick-dots{
 	bottom: 20px;
 }
-header .slider-container .slick-dots li button:before{
+section .slider-container .slick-dots li button:before{
 	font-size: 15px;
 	opacity: 1;
 }
-header .slider-container .slick-dots li.slick-active button:before{
+section .slider-container .slick-dots li.slick-active button:before{
 	color: #ff909d;
 }
